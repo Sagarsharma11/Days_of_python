@@ -1,9 +1,9 @@
 import time;
 
 t = time.localtime();
-H = time.strftime("%H",t)
-M = time.strftime("%M",t)
-S = time.strftime("%S",t)
+H = int(time.strftime("%H",t))
+M = int(time.strftime("%M",t))
+S = int(time.strftime("%S",t))
 
 if(H>=4 and H<12):
     print("Good Morning Uncle")
