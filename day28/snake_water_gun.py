@@ -4,7 +4,6 @@ class customerror(Exception):
     pass
 
 num = 3
-
 print("\n_____Snake__Water__Gun_____\n")
 print("\n 1.snake \n 2.water \n 3.gun \n")
 user_choice = int(input('enter your choice: '))
