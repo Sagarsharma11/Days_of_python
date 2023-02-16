@@ -6,7 +6,7 @@ except ValueError:
     print('number enterd is not integer')
 except IndexError:
     print('index not avilable')
-except:
-    print('error')
+except Exception as e:
+    print(f'error {e}')
 
 print("this is important lines")
